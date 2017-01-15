@@ -1,0 +1,14 @@
+.top {background-color:white;
+	color:darkgrey;
+	padding:10px
+	margin-right:10px;
+	font-family: 'Georgia', Times, Times New Roman, serif;}
+
+h1 { 
+	background-color: #4aaaa5;
+	color: white;
+	padding:10px
+	margin-right:10px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	float: left;}
+}
