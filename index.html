@@ -3,23 +3,33 @@
 <head>
 	<title>Leigh Fisher Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<style> 
+		body { 
+			background-image:url(assets/images/symphony.png) }		
+	</style>
 </head>
 
-	
 <body>
-
-<div class="top">
+	<header>
+		<div id="top">
   		<!--top of page-->
-	<h1>Leigh Fisher</h1>
-			<div id="about"> About</div>
-				<div id= "portfolio"> Portfolio</div>
-					<div id= "contact"> Contact</div>
-</div>
-<br>
-	<div class= "main">	
-		<h3>About Me</h3>
-		<!--picture #blindingflashoftheobvious -->
+			<h1> Leigh Fisher </h1>
+			<div id="nav">	
+				<ul>
+					<li><a href ="index.html">About</a></li>
+					<li><a href ="portfolio.html"> Portfolio</a></li>
+					<li><a href ="contact.html"> Contact</a></li>
+				</ul>		
+			</div>
+		</div>
+	</header>
 
+	<div id= "main">	
+		<h3>About Me</h3>
+	<br>
+		<!--picture #blindingflashoftheobvious -->
 		<img src="assets/images/portfolio pic.jpg" width="200px" height="200px">
 
 				<!--the bio. it's billiant. trust. -->
@@ -31,7 +41,7 @@
 	</div>
 <br>
 	<!--the social media and portfolio links and icons-->
-	<div class="social">
+	<div id="social">
 		<div>Connect with Me</div>
 			<a href="https://github.com/lafisher"><img src="assets/images/1484454612_github.png" alt="github"></a>
 			<a href="https://www.linkedin.com/in/leigh-a-fisher/"><img src="assets/images/1484454691_square-linkedin.png" alt="linkedin"></a>
