@@ -27,10 +27,14 @@ h1 {
 	float: left;}
 }
 
-#about 
-	{
-	float:right
-	}
+h3
+		{border-bottom: grey;
+		color:#4aaaa5;
+		background-color:white; 
+		margin: 100px;
+		padding: 50px;
+		float:left;
+		}
 
 .main 
 	{
@@ -40,7 +44,6 @@ h1 {
 		float:left;
 
 	}
-
 
 
 
