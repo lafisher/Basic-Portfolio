@@ -1,17 +1,17 @@
-body 
-	{
+body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background-image:url(symphony.jpg); 
 
-}
+	}
 
 
 header {
-	background-color:white;
-	color:grey;
-	padding:500px
-	margin:500px;
-	border:500px;
+	background-color:lightcyan;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position:fixed;
+	top: 0px;
+	width: 100%;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 		
 	}
@@ -19,13 +19,18 @@ header {
 h1 { 
 	background-color: #4aaaa5;
 	color: white;
-	padding:30px
-	margin-right:10px;
+	padding:30px;
+	margin:10px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	float: left;}
+	float: left;
 	}
+	
 
 #nav {
+	background-color: white;
+	color: lightgrey;
+	padding:30px;
+	margin:10px;
 	float: right;
 	}
 
@@ -35,27 +40,27 @@ h1 {
     list-style-type:none;
     padding:5px 0px 5px 0px;
  }
+
+
 li {
     display:inline;
     padding: 5px 0px 5px 5px;
 }
 
-h3
-		{border-bottom: grey;
+h3 {
+		border-bottom: grey;
 		color:#4aaaa5;
 		background-color:white; 
 		margin: 100px;
 		padding: 50px;
 		float:left;
-		}
+	}
 
-#main 
-	{
+#main {
 		background-color:white; 
-		margin: 100px;
 		padding: 50px;
+		margin: 100px;
 		float:left;
-
 	}
 	
 #social {
@@ -64,19 +69,20 @@ h3
 		padding: 50px;
 		float:right;
 
-		}
+	}
 
-footer 
-	{
+footer {
 		clear:both;
 		background-color: darkgrey;
 		color:white;
-		padding-top:100px;
-		padding-bottom: 100px
-		margin:10px;
+		position: fixed;
+		bottom: 0px;
+		padding-top:40px;
+		padding-bottom: 40px;
+		width: 100%;
 		font-family: 'Georgia', Times, Times New Roman, serif;
 		text-align: center
-		}
+	}
 
 
 
