@@ -1,18 +1,18 @@
 body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background-image:url(symphony.jpg); 
+	color: #777777;
 
 	}
 
 
 header {
 	background-color:#ffffff;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding:20px 20px 1px 20px;
 	position:fixed;
 	top: 0px;
 	width: 100%;
-	height: 10%;
+	height: 8%;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 		
 	}
@@ -20,9 +20,10 @@ header {
 h1 { 
 	background-color: #4aaaa5;
 	color: white;
-	padding:30px;
-	margin:10px;
+	padding:30px 20px 1px 20px;
+	margin: 5px 20px 30px 150px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
 	float: left;
 	}
 	
@@ -30,8 +31,8 @@ h1 {
 #nav {
 	background-color: white;
 	color: lightgrey;
-	padding:30px;
-	margin:10px;
+	padding:20px 20px 1px 20px;
+	margin: 5px 150px 30px 20px;
 	float: right;
 	}
 
@@ -49,10 +50,10 @@ li {
 }
 
 h2 {
-		border-bottom: grey 5px; 
 		color:#4aaaa5;
 		background-color:white; 
-		text-align: center
+		text-align: center;
+		font-weight:bold;
 	}
 
 #main {
@@ -61,19 +62,47 @@ h2 {
 		border: 5px;
 		width: 650px;
 		padding: 50px;
-		margin: 100px;
+		margin: 100px 10px 100px 70px;
 		float:left;
 	}
-	
+#image1 {
+		margin: 10px 30px 10px 30px;
+		float: left;
+		border-radius: 50%;
+}	
+
 #social {
 		background-color:white; 
 		width: 270px;
-		margin: 100px;
+		margin: 100px 70px 100px 10px;
 		padding: 50px;
 		float:right;
 
 	}
 
+#image2 {
+		border-radius: 8px;
+		margin: 5px;
+		float:left;
+		}
+
+#image3 {
+		border-radius: 8px;
+		margin: 5px;
+		float:right;
+		}
+
+#image4 {
+		border-radius: 8px;
+		margin: 5px;
+		float:left;
+		}
+
+#image5 {
+		border-radius: 8px;
+		margin: 5px;
+		float:right;
+		}
 
 footer {
 		clear:both;
