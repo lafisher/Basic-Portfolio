@@ -54,14 +54,14 @@ li {
 h2 {
 		color:#4aaaa5;
 		background-color:white; 
-		text-align: center;
+		text-align: left;
 		font-weight:bold;
+		border-bottom: 1px solid lightgrey;
 	}
 
 #main {
 		background-color:#ffffff; 
 		border-color: #dddddd;
-		border: 5px;
 		width: 650px;
 		padding: 50px;
 		margin: 100px 10px 100px 70px;
@@ -80,6 +80,15 @@ h2 {
 		padding: 50px;
 		float:right;
 
+	}
+
+#git {padding: 10px 5px 0px 5px;
+	}
+
+#linkedin {padding: 10px 5px 0px 5px;
+	}
+
+#stack {padding: 10px 5px 0px 5px;
 	}
 
 #image2 {
@@ -117,7 +126,7 @@ footer {
 		width: 100%;
 		font-family: 'Georgia', Times, Times New Roman, serif;
 		text-align: center;
-		border-top: 2px solid #4aaaa5;
+		border-top: 5px solid #4aaaa5;
 	}
 
 
